@@ -24,7 +24,8 @@ int main()
     {
 
         double x=(a+b)/(double)2;
-        cout<<"x"<<c<<" = "<<x<<endl;
+        cout<<"x"<<c<<" = "<<x<<" ";
+        cout<<"f(x"<<c<<")"<<" = "<<f(x)<<endl;
         c++;
         if(f(x)>0)
         {
